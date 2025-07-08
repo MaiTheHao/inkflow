@@ -1,5 +1,5 @@
 import React, { memo, useMemo, useState } from 'react';
-import Logo from '/imgs/logo.png';
+import Logo from '/logo/logo-24x24.svg';
 import NavBar from '../components/layout/header/nav/NavBar';
 import { Link } from 'react-router-dom';
 import { ROUTES } from '../const/routes';
@@ -72,7 +72,7 @@ const AppHeader = memo(function AppHeader() {
 							className='transition-transform duration-200 hover:scale-110'
 							onClick={() => setIsMobileMenuOpen(false)}
 						>
-							<img src={Logo} alt='Inkflow Logo' className='h-12 sm:h-16 lg:h-20 w-auto max-w-none' />
+							<img src={Logo} alt='Inkflow Logo' className='h-12 sm:h-16 w-auto max-w-none' />
 						</Link>
 					</div>
 

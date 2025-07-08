@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { faFacebookF, faInstagram, faLinkedinIn, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import ListNav from '../components/layout/footer/nav/ListNav';
 import { ROUTES } from '../const/routes';
-import Logo from '/imgs/logo.png';
+import Logo from '/logo/logo-24x24.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { SOCIAL_MEDIA_LINKS } from '../const/info';
 
@@ -15,14 +15,14 @@ function AppFooter() {
 					{/* Footer Content */}
 					<div className='flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12 xl:gap-16'>
 						{/* Logo & Description */}
-						<div className='flex flex-col items-center lg:items-start gap-4 w-full lg:w-auto lg:max-w-[300px] text-center lg:text-left'>
-							<img src={Logo} alt='Inkflow Logo' className='h-16 sm:h-20 lg:h-24 w-auto' />
+						<div className='flex flex-col justify-center items-center gap-4 w-full lg:w-auto lg:max-w-[300px] text-center'>
+							<img src={Logo} alt='Inkflow Logo' className='h-16 sm:h-20 lg:h-24' />
 							<p className='text-[var(--color-text-paragraph)] text-sm sm:text-base leading-relaxed'>
 								Inkflow - Tiệm xăm nghệ thuật sáng tạo & an toàn tại địa phương.
 							</p>
 
 							{/* Social Media Icons */}
-							<ul className='flex flex-row gap-4 sm:gap-6 items-center justify-center lg:justify-start'>
+							<ul className='flex flex-row gap-4 sm:gap-6 items-center justify-center'>
 								{[
 									{ icon: faFacebookF, href: SOCIAL_MEDIA_LINKS.FACEBOOK },
 									{ icon: faInstagram, href: SOCIAL_MEDIA_LINKS.INSTAGRAM },
