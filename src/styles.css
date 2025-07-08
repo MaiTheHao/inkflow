@@ -1,0 +1,142 @@
+@import 'tailwindcss';
+
+:root {
+	--font-title: 'Distillery', serif;
+	--font-body: 'OpenDyslexic', sans-serif;
+
+	/* Màu nền */
+	--color-bg: #171717; /* Giữ nguyên màu nền tối */
+	--color-bg-secondary: #1f1f1f; /* Màu nền phụ, hơi sáng hơn một chút để tạo độ tương phản với nền chính */
+	--color-bg-tertiary: #262626; /* Màu nền thứ cấp, có thể dùng cho các phần tử như card, box, v.v. */
+	--color-bg-accent: #2a2a2a; /* Màu nền nhấn, có thể dùng cho các nút hoặc phần tử cần nổi bật hơn */
+	--color-bg-highlight: #3a3a3a; /* Màu nền nổi bật, dùng cho các phần tử cần thu hút sự chú ý hơn nữa */
+
+	/* Màu chính */
+	--color-primary: #371a17; /* Giữ nguyên màu chính đậm */
+	--color-primary-hover: #5e2a1f; /* Điều chỉnh để tạo sự khác biệt rõ hơn khi hover, vẫn trong tông trầm */
+
+	/* Màu chữ */
+	--color-text-primary: #dbceb2; /* Hơi điều chỉnh để tạo cảm giác ấm áp hơn một chút, dễ đọc trên nền tối */
+	--color-text-hover: #e3d9c2; /* Tăng độ sáng nhẹ so với màu text-primary để tạo hiệu ứng hover tinh tế */
+	--color-text-secondary: #c8bfac; /* Màu phụ hơi nhạt hơn, phù hợp cho các đoạn văn bản ít quan trọng hơn */
+	--color-text-tertiary: #a69b89; /* Màu thứ cấp, nhạt hơn nữa, có thể dùng cho chú thích hoặc thông tin bổ sung */
+	--color-text-muted: #8e8272; /* Màu làm mờ, dùng cho các phần tử rất ít nổi bật */
+
+	/* Header (Tiêu đề chính - nổi bật nhất) */
+	--color-text-header: hsl(41, 34%, 70%); /* Một màu vàng kem sáng hơn, nổi bật rõ ràng trên nền tối */
+	--color-text-header-hover: hsl(41, 34%, 80%); /* Màu sáng hơn khi hover, tạo hiệu ứng tương tác rõ ràng */
+
+	/* Subtitle (Tiêu đề phụ - độ nổi bật vừa phải) */
+	--color-text-subtitle: hsl(41, 15%, 65%); /* Hơi tối hơn Header một chút, nhưng vẫn sáng và dễ đọc */
+	--color-text-subtitle-hover: hsl(41, 15%, 75%); /* Sáng hơn khi hover, tạo sự tương tác rõ ràng */
+
+	/* Highlight Paragraph (Đoạn văn bản nổi bật - cần thu hút sự chú ý) */
+	--color-text-highlight: hsl(
+		33,
+		55%,
+		75%
+	); /* Sáng nhất trong các màu văn bản, dùng cho các đoạn cần nhấn mạnh đặc biệt */
+
+	/* Paragraph (Đoạn văn bản thông thường - dễ đọc trên diện rộng) */
+	--color-text-paragraph: hsl(41, 25%, 80%); /* Màu chữ chính, độ tương phản tốt với nền, dễ đọc trên diện rộng */
+
+	/* Màu chữ phụ, mờ (ví dụ: chú thích, thông tin ít quan trọng) */
+	--color-text-muted: #a8987d; /* Giữ nguyên màu muted, phù hợp cho các yếu tố ít nổi bật */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+	font-family: var(--font-title), serif;
+}
+
+p,
+.paragraph,
+body {
+	font-family: var(--font-body), sans-serif;
+}
+
+html,
+body {
+	overflow-y: auto;
+	overflow-x: hidden;
+	/* Hide vertical scrollbar but keep scrolling */
+	scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Opera */
+}
+
+li {
+	list-style: none;
+}
+
+.font-title {
+	font-family: var(--font-title);
+}
+
+.font-body {
+	font-family: var(--font-body);
+}
+
+/* Modern scrollbar styles */
+.modern-scrollbar {
+	/* Firefox */
+	scrollbar-width: thin;
+	scrollbar-color: var(--color-bg-accent) var(--color-bg-secondary);
+}
+
+.modern-scrollbar::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+.modern-scrollbar::-webkit-scrollbar-track {
+	background: var(--color-bg-secondary);
+	border-radius: 10px;
+}
+
+.modern-scrollbar::-webkit-scrollbar-thumb {
+	background: var(--color-bg-accent);
+	border-radius: 10px;
+	transition: background-color 0.3s ease;
+}
+
+.modern-scrollbar::-webkit-scrollbar-thumb:hover {
+	background: var(--color-bg-highlight);
+}
+
+.modern-scrollbar::-webkit-scrollbar-corner {
+	background: var(--color-bg-secondary);
+}
+
+/* Modal specific scrollbar - even thinner */
+.modal-scrollbar {
+	scrollbar-width: thin;
+	scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.modal-scrollbar::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+
+.modal-scrollbar::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.modal-scrollbar::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+
+.modal-scrollbar::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 0.4);
+}
