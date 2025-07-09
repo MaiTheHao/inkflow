@@ -19,6 +19,7 @@ export const steps = [
 		quote: 'Chúng tôi luôn đặt sự hài lòng của khách hàng lên hàng đầu, tư vấn tận tâm và chuyên nghiệp. Chúng tôi sẽ giúp bạn biến ý tưởng thành hiện thực.',
 		author: 'Mao Thế Hài',
 		role: 'Chuyên viên tư vấn',
+		image: 'https://www.tattlab.com.au/cdn/shop/articles/wk71466988-image-kpqj4ubv.jpg?v=1641877053',
 		active: true,
 	},
 	{
@@ -27,6 +28,7 @@ export const steps = [
 		title: 'Thiết kế riêng',
 		description:
 			'Dựa trên ý tưởng đã thống nhất, các nghệ sĩ tài năng của chúng tôi sẽ phác thảo và thiết kế riêng cho bạn một tác phẩm độc đáo, thể hiện trọn vẹn ý tưởng và mong muốn của bạn. Bạn sẽ được xem trước và duyệt mẫu thiết kế trước khi tiến hành.',
+		image: 'https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0409/users/39a760237c86c380f25a16b0513dd1f01f3a3a62/i-img900x1200-1694265390dymerz320081.jpg',
 		active: false,
 	},
 	{
@@ -35,6 +37,7 @@ export const steps = [
 		title: 'Báo giá',
 		description:
 			'Chúng tôi cam kết mang đến dịch vụ chất lượng với mức giá cạnh tranh và minh bạch. Bảng giá chi tiết sẽ được cung cấp sau khi ý tưởng và thiết kế được hoàn thiện, đảm bảo không có chi phí ẩn phát sinh.',
+		image: 'https://www.copicola.com/wp-content/uploads/2015/09/shutterstock_132708305-scaled.jpg',
 		active: false,
 	},
 	{
@@ -43,6 +46,7 @@ export const steps = [
 		title: 'Xăm - chuẩn vô trùng',
 		description:
 			'Quy trình xăm hình tại studio được thực hiện nghiêm ngặt theo tiêu chuẩn y tế, đảm bảo vệ sinh và an toàn tuyệt đối. Chúng tôi sử dụng mực xăm chất lượng cao, trang thiết bị hiện đại và đội ngũ nghệ sĩ có tay nghề cao.',
+		image: 'https://www.konmison.com/wp-content/uploads/2023/04/clean-tattoo-machine.jpg',
 		active: false,
 	},
 	{
@@ -51,6 +55,7 @@ export const steps = [
 		title: 'Hướng dẫn chăm sóc',
 		description:
 			'Sau khi hoàn thành, bạn sẽ được hướng dẫn chi tiết về cách chăm sóc hình xăm tại nhà để đảm bảo hình xăm lên màu đẹp và duy trì được độ bền lâu dài. Chúng tôi luôn sẵn sàng hỗ trợ và giải đáp mọi thắc mắc của bạn trong quá trình chăm sóc.',
+		image: 'https://th.bing.com/th/id/R.621f589ce43eaeba2269ddb760dd669f?rik=Jw0SvnoHIEdpPA&pid=ImgRaw&r=0',
 		active: false,
 	},
 ];
