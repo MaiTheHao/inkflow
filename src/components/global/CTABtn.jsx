@@ -7,6 +7,7 @@ function CTABtn({ to, title, children, onClick, ...rest }) {
             py-4 px-4
 			active:scale-95
             hover:bg-[var(--color-primary-hover)] hover:text-[var(--color-text-header-hover)]
+			rounded-sm
             `;
 	const style = {
 		transition: 'background-color 0.2s ease, color 0.2s ease, scale 0.1s ease',

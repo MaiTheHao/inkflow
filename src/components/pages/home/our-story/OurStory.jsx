@@ -5,17 +5,7 @@ import MainImg from '/imgs/pages/home/our-story/main.png';
 function OurStory() {
 	return (
 		<Section className='bg-[var(--color-bg-secondary)]'>
-			<div className='flex flex-col lg:flex-row items-center justify-center text-left max-w-[1200px] h-max gap-6 lg:gap-0'>
-				{/* Image Section */}
-				<div className='w-full lg:flex-6 aspect-square lg:aspect-1/1 h-full max-w-md lg:max-w-none'>
-					<img
-						src={MainImg}
-						alt='Our Story'
-						className='w-full h-full object-cover rounded-lg lg:rounded-none'
-					/>
-				</div>
-
-				{/* Content Section */}
+			<div className='flex flex-col-reverse lg:flex-row items-center justify-center text-left max-w-[1200px] h-max gap-6 lg:gap-0'>
 				<div className='w-full lg:flex-5 h-max flex flex-col items-start justify-center gap-4 p-4 sm:p-6 lg:p-8 text-[var(--color-text-paragraph)] text-sm sm:text-base'>
 					<div className='flex flex-col gap-2 mb-4 lg:mb-6 text-center lg:text-left w-full'>
 						<span className='text-[var(--color-text-subtitle)] text-sm sm:text-base'>
@@ -47,6 +37,13 @@ function OurStory() {
 							Tìm hiểu thêm
 						</CTABtn>
 					</div>
+				</div>
+				<div className='w-full lg:flex-6 aspect-square lg:aspect-1/1 h-full max-w-md lg:max-w-none'>
+					<img
+						src={MainImg}
+						alt='Our Story'
+						className='w-full h-full object-cover rounded-lg lg:rounded-none'
+					/>
 				</div>
 			</div>
 		</Section>

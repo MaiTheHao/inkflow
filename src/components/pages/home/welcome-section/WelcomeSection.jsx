@@ -11,11 +11,11 @@ function WelcomeSection() {
 			</video>
 
 			<div className='relative w-full z-10 text-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 bg-black/40 flex flex-col items-center gap-4 sm:gap-6'>
-				<h1 className='text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-[var(--color-text-header)] max-w-4xl leading-tight'>
+				<h1 className='text-2xl sm:text-3xl lg:text-4xl font-bold text-[var(--color-text-header)] max-w-4xl leading-tight'>
 					INKFLOW - Nơi mỗi hình xăm là một hành trình
 				</h1>
 
-				<p className='text-sm sm:text-base lg:text-lg xl:text-xl text-[var(--color-text-subtitle)] max-w-2xl leading-relaxed'>
+				<p className='text-sm sm:text-base text-[var(--color-text-subtitle)] max-w-2xl leading-relaxed'>
 					Chúng tôi tạo ra không gian nghệ thuật độc đáo, nơi xăm không chỉ là hình vẽ mà còn là dấu ấn cá
 					nhân, hãy để chúng tôi kể câu chuyện riêng của bạn.
 				</p>

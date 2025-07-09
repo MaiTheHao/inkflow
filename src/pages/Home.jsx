@@ -2,7 +2,7 @@ import WelcomeSection from '../components/pages/home/welcome-section/WelcomeSect
 import FeaturedTattoos from '../components/pages/home/featured-tattoos/FeaturedTattoos';
 import OurStory from '../components/pages/home/our-story/OurStory';
 import FeaturedArtists from '../components/pages/home/featured-artists/FeaturedArtists';
-import WrokProcess from '../components/pages/home/work-process/WrokProcess';
+import WorkProcess from '../components/pages/home/work-process/WorkProcess';
 
 // Landing page for the Inkflow website
 function Home() {
@@ -17,7 +17,7 @@ function Home() {
 			{/* Nghệ sĩ nổi bật */}
 			<FeaturedArtists />
 			{/* Workflow */}
-			<WrokProcess />
+			<WorkProcess />
 			{/* Testimonials */}
 			<div></div>
 			{/* Quick FAQ */}
