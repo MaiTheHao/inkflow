@@ -21,11 +21,11 @@ function StepContent({ currentStep, getStepIcon }) {
 							<div className='text-[var(--color-text-primary)] text-5xl font-bold leading-none'>
 								<FontAwesomeIcon icon={faQuoteLeft} />
 							</div>
-							<div className='flex-1 pt-6'>
+							<div className='flex-1 flex flex-col gap-4 pt-6'>
 								<blockquote className='text-[var(--color-text-secondary)] italic leading-relaxed text-base'>
 									{currentStep.quote}
 								</blockquote>
-								<div className='flex flex-col gap-1 pt-2 border-t border-[var(--color-bg-accent)]'>
+								<div className='flex flex-col gap-1 pt-2'>
 									<cite className='text-[var(--color-text-header)] font-bold text-base not-italic'>
 										{currentStep.author}
 									</cite>
