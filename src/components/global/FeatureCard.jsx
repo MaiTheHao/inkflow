@@ -13,7 +13,7 @@ const FeatureCard = memo(function FeatureCard({
 }) {
 	const content = children || (
 		<>
-			<div className={`h-[${aspectRatio[0]}%] overflow-hidden`}>
+			<div className='h-[%] overflow-hidden'>
 				<img
 					src={image}
 					alt={`Ảnh của ${title}`}

@@ -52,7 +52,7 @@ const TattooStory = memo(function TattooStory() {
 								description: story.description,
 							}}
 							className='h-[300px] sm:h-[350px] lg:h-[400px] group bg-[var(--color-bg)]'
-							aspectRatio={[45, 55]}
+							aspectRatio={[50, 50]}
 						/>
 					))}
 				</div>
