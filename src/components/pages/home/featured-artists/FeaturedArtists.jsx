@@ -2,7 +2,7 @@ import PageSection from '../../../global/PageSection';
 import { ROUTES } from '../../../../const/routes';
 import { memo } from 'react';
 import { useMemo } from 'react';
-import FeatureCard from '../../introduce/FeatureCard';
+import FeatureCard from '../../../global/FeatureCard';
 
 // Data tách ra ngoài component để tránh re-create mỗi lần render
 const ARTISTS_DATA = [

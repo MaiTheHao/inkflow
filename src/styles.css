@@ -140,3 +140,11 @@ li {
 .modal-scrollbar::-webkit-scrollbar-thumb:hover {
 	background: rgba(255, 255, 255, 0.4);
 }
+
+.hidden-scrollbar {
+	/* Hide scrollbar but keep scrolling */
+	scrollbar-width: none; /* Firefox */
+}
+.hidden-scrollbar::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Opera */
+}

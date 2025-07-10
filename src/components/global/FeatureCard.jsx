@@ -12,7 +12,7 @@ const FeatureCard = memo(function FeatureCard({
 }) {
 	const content = children || (
 		<>
-			<div className='h-[55%] overflow-hidden'>
+			<div className='h-[50%] overflow-hidden'>
 				<img
 					src={image}
 					alt={`Ảnh của ${title}`}
@@ -20,7 +20,7 @@ const FeatureCard = memo(function FeatureCard({
 					loading='lazy'
 				/>
 			</div>
-			<div className='h-[45%] p-4 sm:p-6 flex flex-col justify-start'>
+			<div className='h-[50%] p-4 sm:p-6 flex flex-col justify-start'>
 				<header className='mb-3 sm:mb-4'>
 					<h3 className='font-bold text-[var(--color-text-header)] text-lg sm:text-xl leading-tight group-hover:text-[var(--color-text-header-hover)] transition-colors duration-300 mb-2'>
 						{title}
@@ -39,7 +39,7 @@ const FeatureCard = memo(function FeatureCard({
 	);
 
 	const combinedClassName = [
-		'group flex flex-col bg-[var(--color-bg-secondary)] rounded-lg shadow-lg overflow-hidden cursor-pointer transform transition-all duration-300 hover:shadow-2xl hover:scale-105 hover:bg-[var(--color-bg-tertiary)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:ring-offset-2 h-[520px] sm:h-[480px] md:h-[520px]',
+		'group flex flex-col bg-[var(--color-bg-secondary)] rounded-lg shadow-lg overflow-hidden cursor-pointer transform transition-all duration-300 hover:shadow-2xl hover:scale-105 hover:bg-[var(--color-bg-tertiary)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:ring-offset-2',
 		className,
 	].join(' ');
 

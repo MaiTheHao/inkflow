@@ -10,7 +10,7 @@ const navSections = [
 	{
 		title: 'Inkflow',
 		items: [
-			{ to: ROUTES.COMPANY.ABOUT.href, label: ROUTES.COMPANY.ABOUT.label },
+			{ to: ROUTES.GIOI_THIEU.href, label: ROUTES.GIOI_THIEU.label },
 			{ to: ROUTES.COMPANY.JOBS.href, label: ROUTES.COMPANY.JOBS.label },
 			{ to: ROUTES.LIEN_HE.href, label: ROUTES.LIEN_HE.label },
 		],

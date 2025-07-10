@@ -6,31 +6,31 @@ const CUSTOMER_FEEDBACKS = [
 	{
 		name: 'Yoasobi',
 		feedback:
-			'Hình xăm này đúng là một tác phẩm nghệ thuật! Nghệ sĩ đã nắm bắt ý tưởng của tôi hoàn hảo và biến nó thành một kiệt tác. Cứ như là một giai điệu mới được sáng tạo trên da vậy!',
+			'Hình xăm này đúng là một tác phẩm nghệ thuật luôn á! Nghệ sĩ bắt vibe ý tưởng của mình chuẩn bài, biến nó thành một kiệt tác luôn. Cảm giác như có một giai điệu mới vang lên trên da vậy đó!',
 		avatar: 'https://img1.ak.crunchyroll.com/i/spire1/5aab7e7bef0a6808c5a0fc2ca3352b841658822259_large.png',
 	},
 	{
 		name: 'Elon Musk',
 		feedback:
-			'Trải nghiệm cực kỳ hiệu quả! Đội ngũ làm việc chuyên nghiệp, không lãng phí thời gian và kết quả thật sự vượt trội. Hình xăm này sẽ là một phần của hành trình chinh phục sao Hỏa của tôi.',
+			'Quá trời hiệu quả luôn! Cả đội làm việc cực chuyên, không dây dưa mất thời gian mà kết quả thì siêu xịn. Hình xăm này chắc chắn sẽ theo tui trong hành trình lên sao Hỏa đó nha!',
 		avatar: 'https://images.inc.com/uploaded_files/image/1920x1080/feature-114-Elon-Musk-EoY-opener-pan_7026.jpg',
 	},
 	{
 		name: 'Taylor Swift',
 		feedback:
-			'Ôi, tôi yêu hình xăm này quá! Nó đẹp hơn cả những gì tôi tưởng tượng. Nghệ sĩ thật sự có tâm và tài năng. Chắc chắn tôi sẽ quay lại để có thêm "kỷ niệm" trên da!',
+			'Trời ơi, tớ mê cái hình xăm này quá trời quá đất luôn! Còn đẹp hơn cả trong tưởng tượng. Nghệ sĩ làm cực có tâm mà cũng cực có tầm. Nhất định tớ sẽ quay lại để "gom thêm kỷ niệm" lên da!',
 		avatar: 'https://wallpapers.com/images/hd/taylor-swift-stunning-performance-equals-enlightenment-yw06486uiv4phwbn.jpg',
 	},
 	{
 		name: 'Bill Gates',
 		feedback:
-			'Một khoản đầu tư xứng đáng. Quy trình làm việc hiệu quả, chính xác và kết quả vượt ngoài mong đợi. Đây là một điểm cộng lớn cho bất kỳ ai muốn sở hữu một hình xăm chất lượng cao.',
+			'Thật sự thấy đây là một khoản đầu tư đáng đồng tiền bát gạo. Quy trình làm việc đâu ra đó, chính xác mà còn nhanh gọn. Bản thân mình đánh giá đây là nơi xứng đáng để ai muốn có hình xăm chất lượng ghé qua!',
 		avatar: 'https://wallpapers.com/images/hd/bill-gates-smile-vaga2ec95vycqimt.jpg',
 	},
 	{
 		name: 'Lisa (Blackpink)',
 		feedback:
-			'OMG, hình xăm này thật sự "đỉnh của chóp"! Nó hoàn toàn phù hợp với phong cách của tôi và giúp tôi cảm thấy tự tin hơn rất nhiều khi trình diễn. Yêu cái studio này chết mất!',
+			'OMG, hình xăm này quá trời đỉnh luôn á! Hợp style của tui dễ sợ, làm tui cảm thấy tự tin hơn hẳn mỗi khi lên sân khấu. Mê cái studio này thiệt luôn đó, yêu chết mất!',
 		avatar: 'https://graziamagazine.com/wp-content/uploads/2020/10/Announcement-BTS-Final-72dpi.jpg?resize=1500%2C1000',
 	},
 ];

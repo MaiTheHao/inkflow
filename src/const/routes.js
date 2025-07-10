@@ -38,7 +38,6 @@ export const ROUTES = {
 	COMPANY: {
 		href: '/company',
 		label: 'Công ty',
-		ABOUT: { href: '/company/about', label: 'Giới thiệu', rel: 'about' },
 		BLOG: { href: '/company/blog', label: 'Blog', rel: 'blog' },
 		JOBS: { href: '/company/jobs', label: 'Việc làm', rel: 'jobs' },
 		PRESS: { href: '/company/press', label: 'Báo chí', rel: 'press' },

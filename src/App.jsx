@@ -77,7 +77,6 @@ function App() {
 
 					{/* Company routes */}
 					<Route path={ROUTES.COMPANY.href} element={<Company />} />
-					<Route path={ROUTES.COMPANY.ABOUT.href} element={<CompanyAbout />} />
 					<Route path={ROUTES.COMPANY.BLOG.href} element={<CompanyBlog />} />
 					<Route path={ROUTES.COMPANY.JOBS.href} element={<CompanyJobs />} />
 					<Route path={ROUTES.COMPANY.PRESS.href} element={<CompanyPress />} />
