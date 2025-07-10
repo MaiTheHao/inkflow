@@ -26,7 +26,7 @@ function FAQcard({ question, answers, className = '', style = {} }) {
 				className='flex flex-row items-center justify-between gap-4 cursor-pointer select-none'
 				style={{ listStyle: 'none' }}
 			>
-				<p className='text-gray-800 font-medium transition-colors duration-150 group-hover:text-[var(--color-primary)] text-base sm:text-lg md:text-xl'>
+				<p className='text-gray-800 transition-colors duration-150 group-hover:text-[var(--color-primary)] text-sm md:text-md'>
 					{question}
 				</p>
 				<span
@@ -46,7 +46,7 @@ function FAQcard({ question, answers, className = '', style = {} }) {
 			{open && (
 				<>
 					<div className='h-[1px] my-2 w-full bg-gray-200'></div>
-					<ul className='text-xs sm:text-sm md:text-base flex flex-col gap-2 pl-2'>
+					<ul className='text-xs md:text-sm flex flex-col gap-2 pl-2'>
 						{answers.map((answer, index) => (
 							<li key={index} className='text-gray-500'>
 								- {answer}
