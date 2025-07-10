@@ -3,6 +3,8 @@ import FeaturedTattoos from '../components/pages/home/featured-tattoos/FeaturedT
 import OurStory from '../components/pages/home/our-story/OurStory';
 import FeaturedArtists from '../components/pages/home/featured-artists/FeaturedArtists';
 import WorkProcess from '../components/pages/home/work-process/WorkProcess';
+import CustomerFeedback from '../components/pages/home/customer-feedback/CustomerFeedback';
+import FAQ from '../components/pages/home/faq/FAQ';
 
 // Landing page for the Inkflow website
 function Home() {
@@ -19,9 +21,9 @@ function Home() {
 			{/* Workflow */}
 			<WorkProcess />
 			{/* Testimonials */}
-			<div></div>
+			<CustomerFeedback />
 			{/* Quick FAQ */}
-			<div></div>
+			<FAQ />
 		</>
 	);
 }

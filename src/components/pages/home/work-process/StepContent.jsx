@@ -18,11 +18,11 @@ function StepContent({ currentStep }) {
 				{currentStep.quote && (
 					<div className='border-b-2 border-[var(--color-bg-highlight)] pb-4 md:pb-6'>
 						<div className='flex flex-row gap-3 md:gap-5 items-start'>
-							<div className='text-[var(--color-text-primary)] text-3xl md:text-4xl lg:text-5xl font-bold leading-none flex-shrink-0'>
+							<div className='text-[var(--color-text-primary)] text-xl md:text-4xl lg:text-5xl font-bold leading-none flex-shrink-0'>
 								<FontAwesomeIcon icon={faQuoteLeft} />
 							</div>
 							<div className='flex-1 flex flex-col gap-3 md:gap-4 pt-2 md:pt-4 lg:pt-6'>
-								<blockquote className='text-[var(--color-text-secondary)] italic leading-relaxed text-sm md:text-base'>
+								<blockquote className='text-[var(--color-text-secondary)] italic leading-relaxed text-xs md:text-base'>
 									{currentStep.quote}
 								</blockquote>
 								<div className='flex flex-col gap-1 pt-1 md:pt-2'>
