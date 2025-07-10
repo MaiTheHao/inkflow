@@ -2,7 +2,7 @@ import { memo } from 'react';
 import { ROUTES } from '../../../../const/routes';
 import CTABtn from '../../../global/CTABtn';
 import PageSection from '../../../global/PageSection';
-import { FEATURED_TATTOOS } from './tattooData';
+import { FEATURED_TATTOOS } from '../../../../data/tattoos.data';
 import MobileLayout from './MobileLayout';
 import TabletLayout from './TabletLayout';
 import DesktopLayout from './DesktopLayout';

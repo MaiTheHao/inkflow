@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const FeatureCard = memo(function FeatureCard({
 	feature: { image, title, subtitle, description, ...restFeature },
+	aspectRatio = [50, 50],
 	href,
 	onCardClick,
 	children,
@@ -12,7 +13,7 @@ const FeatureCard = memo(function FeatureCard({
 }) {
 	const content = children || (
 		<>
-			<div className='h-[50%] overflow-hidden'>
+			<div className={`h-[${aspectRatio[0]}%] overflow-hidden`}>
 				<img
 					src={image}
 					alt={`Ảnh của ${title}`}
@@ -20,7 +21,7 @@ const FeatureCard = memo(function FeatureCard({
 					loading='lazy'
 				/>
 			</div>
-			<div className='h-[50%] p-4 sm:p-6 flex flex-col justify-start'>
+			<div className={`h-[${aspectRatio[1]}%] p-4 sm:p-6 flex flex-col justify-start`}>
 				<header className='mb-3 sm:mb-4'>
 					<h3 className='font-bold text-[var(--color-text-header)] text-lg sm:text-xl leading-tight group-hover:text-[var(--color-text-header-hover)] transition-colors duration-300 mb-2'>
 						{title}

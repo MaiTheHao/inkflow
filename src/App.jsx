@@ -3,8 +3,8 @@ import AppLayout from './layout/AppLayout';
 import { ROUTES } from './const/routes';
 import Home from './pages/Home';
 import Introduce from './pages/Introduce';
+import Portfolio from './pages/Portfolio';
 
-const Portfolio = () => <div>Portfolio</div>;
 const PortfolioNgheSi = () => <div>Portfolio Nghệ sĩ</div>;
 const PortfolioTheLoai = () => <div>Portfolio Thể loại</div>;
 const DatLich = () => <div>Đặt lịch</div>;

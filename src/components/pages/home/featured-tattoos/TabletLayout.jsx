@@ -1,6 +1,6 @@
 import { memo } from 'react';
 import TattooImage from './TattooImage';
-import { FEATURED_TATTOOS } from './tattooData';
+import { FEATURED_TATTOOS } from '../../../../data/tattoos.data';
 
 const TabletLayout = memo(function TabletLayout() {
 	// Lấy từng thể loại rõ ràng

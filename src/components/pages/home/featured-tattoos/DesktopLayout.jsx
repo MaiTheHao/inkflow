@@ -2,7 +2,7 @@ import { memo } from 'react';
 import DesktopColumn from './DesktopColumn';
 import TattooImage from './TattooImage';
 import MultiImageBlock from './MultiImageBlock';
-import { FEATURED_TATTOOS } from './tattooData';
+import { FEATURED_TATTOOS } from '../../../../data/tattoos.data';
 
 const DesktopLayout = memo(function DesktopLayout() {
 	return (
