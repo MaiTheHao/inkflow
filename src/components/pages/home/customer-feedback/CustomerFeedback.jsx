@@ -1,5 +1,5 @@
 import React from 'react';
-import Section from '../Section';
+import PageSection from '../../../global/PageSection';
 import { useState, useCallback, memo } from 'react';
 
 const CUSTOMER_FEEDBACKS = [
@@ -60,7 +60,7 @@ const CustomerFeedback = memo(function CustomerFeedback() {
 	}, []);
 
 	return (
-		<Section className='bg-[var(--color-bg)]'>
+		<PageSection className='bg-[var(--color-bg)]'>
 			<div className='max-w-4xl mx-auto text-center px-4 py-16'>
 				<div className='max-w-2xl mx-auto transform transition-all duration-500 flex flex-col items-center justify-end'>
 					<p className='text-lg md:text-xl text-[var(--color-text-paragraph)] italic mb-6 leading-relaxed'>
@@ -122,7 +122,7 @@ const CustomerFeedback = memo(function CustomerFeedback() {
 					))}
 				</div>
 			</div>
-		</Section>
+		</PageSection>
 	);
 });
 

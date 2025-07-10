@@ -10,23 +10,23 @@ function StepContent({ currentStep }) {
 					<h3 className='text-2xl md:text-3xl xl:text-4xl font-bold text-[var(--color-text-header)] font-title leading-tight'>
 						{currentStep.title}
 					</h3>
-					<p className='text-[var(--color-text-paragraph)] leading-relaxed text-sm md:text-base'>
+					<p className='text-[var(--color-text-paragraph)] leading-relaxed text-base'>
 						{currentStep.description}
 					</p>
 				</div>
 
 				{currentStep.quote && (
 					<div className='md:border-b-2 border-[var(--color-bg-highlight)] pb-4 md:pb-6'>
-						<div className='flex flex-col gap-1 p-2 bg-[var(--color-bg-tertiary)] md:p-0 md:bg-transparent md:flex-row md:gap-3 md:gap-5 items-start'>
-							<div className='text-[var(--color-text-primary)] text-md md:text-4xl lg:text-5xl font-bold leading-none flex-shrink-0'>
+						<div className='flex flex-col gap-1 p-4 bg-[var(--color-bg-tertiary)] md:p-0 md:bg-transparent md:flex-row md:gap-3 md:gap-5 items-start'>
+							<div className='text-[var(--color-text-primary)] text-md md:text-4xl font-bold leading-none flex-shrink-0'>
 								<FontAwesomeIcon icon={faQuoteLeft} />
 							</div>
 							<div className='flex-1 flex flex-col gap-3 md:gap-4 pt-2 md:pt-4 lg:pt-6'>
-								<blockquote className='text-[var(--color-text-secondary)] italic leading-relaxed text-xs md:text-base'>
+								<blockquote className='text-[var(--color-text-secondary)] italic leading-relaxed text-sm'>
 									{currentStep.quote}
 								</blockquote>
 								<div className='flex flex-col gap-1 pt-1 md:pt-2'>
-									<cite className='text-[var(--color-text-header)] font-bold text-sm md:text-base not-italic'>
+									<cite className='text-[var(--color-text-header)] font-bold text-sm not-italic'>
 										{currentStep.author}
 									</cite>
 									<span className='text-[var(--color-text-muted)] text-xs md:text-sm font-medium italic'>

@@ -1,6 +1,6 @@
 import { memo } from 'react';
 
-const Section = memo(function Section({ title, description, children, className = '' }) {
+const PageSection = memo(function PageSection({ title, description, children, className = '' }) {
 	return (
 		<section
 			className={`w-full flex flex-col items-center py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-4 ${className}`}
@@ -13,7 +13,7 @@ const Section = memo(function Section({ title, description, children, className 
 						</h2>
 					)}
 					{description && (
-						<p className='text-[var(--color-text-subtitle)] text-center w-full max-w-[520px] text-sm sm:text-base'>
+						<p className='text-[var(--color-text-subtitle)] text-center w-full max-w-[520px] text-sm'>
 							{description}
 						</p>
 					)}
@@ -24,4 +24,4 @@ const Section = memo(function Section({ title, description, children, className 
 	);
 });
 
-export default Section;
+export default PageSection;

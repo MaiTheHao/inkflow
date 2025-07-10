@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import { ROUTES } from '../../../../const/routes';
 import CTABtn from '../../../global/CTABtn';
-import Section from '../Section';
+import PageSection from '../../../global/PageSection';
 import { FEATURED_TATTOOS } from './tattooData';
 import MobileLayout from './MobileLayout';
 import TabletLayout from './TabletLayout';
@@ -18,9 +18,9 @@ const FeaturedTattoos = memo(function FeaturedTattoos() {
 	);
 
 	return (
-		<Section
+		<PageSection
 			title='Các tác phẩm nổi bật'
-			description='Cùng sự tâm huyết và sáng tạo, chúng tôi cam kết mang đến những tác phẩm hình xăm độc đáo và ý nghĩa nhất cho khách hàng.'
+			description='Các tác phẩm của InkFlow mang theo câu chuyện riêng, mỗi nét vẽ là một hành trình đặc biệt.'
 			className='bg-[var(--color-bg)]'
 		>
 			<MobileLayout allImages={allImages} />
@@ -30,7 +30,7 @@ const FeaturedTattoos = memo(function FeaturedTattoos() {
 			<CTABtn title={'Khám phá bộ sưu tập hình xăm'} to={ROUTES.PORTFOLIO.href}>
 				Xem thêm &rarr;
 			</CTABtn>
-		</Section>
+		</PageSection>
 	);
 });
 

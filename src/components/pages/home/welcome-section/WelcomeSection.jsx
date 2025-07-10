@@ -15,7 +15,7 @@ function WelcomeSection() {
 					INKFLOW - Nơi mỗi hình xăm là một hành trình
 				</h1>
 
-				<p className='text-sm sm:text-base text-[var(--color-text-subtitle)] max-w-2xl leading-relaxed'>
+				<p className='text-sm sm:text-base text-[var(--color-text-paragraph)] max-w-2xl leading-relaxed'>
 					Chúng tôi tạo ra không gian nghệ thuật độc đáo, nơi xăm không chỉ là hình vẽ mà còn là dấu ấn cá
 					nhân, hãy để chúng tôi kể câu chuyện riêng của bạn.
 				</p>

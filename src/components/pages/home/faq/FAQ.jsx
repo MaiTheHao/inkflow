@@ -1,5 +1,5 @@
 import React from 'react';
-import Section from '../Section';
+import PageSection from '../../../global/PageSection';
 import FAQcard from '../../../global/FAQcard';
 
 function FAQ() {
@@ -42,7 +42,7 @@ function FAQ() {
 	];
 
 	return (
-		<Section
+		<PageSection
 			title='Câu hỏi và tips khi bắt đầu xăm'
 			description='Những câu hỏi thường gặp và mẹo hữu ích cho người mới bắt đầu xăm'
 			className='bg-[var(--color-bg-secondary)]'
@@ -52,7 +52,7 @@ function FAQ() {
 					<FAQcard key={index} question={faq.question} answers={faq.answers} />
 				))}
 			</ul>
-		</Section>
+		</PageSection>
 	);
 }
 

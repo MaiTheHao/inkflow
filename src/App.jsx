@@ -2,8 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AppLayout from './layout/AppLayout';
 import { ROUTES } from './const/routes';
 import Home from './pages/Home';
+import Introduce from './pages/Introduce';
 
-const GioiThieu = () => <div>Giới thiệu</div>;
 const Portfolio = () => <div>Portfolio</div>;
 const PortfolioNgheSi = () => <div>Portfolio Nghệ sĩ</div>;
 const PortfolioTheLoai = () => <div>Portfolio Thể loại</div>;
@@ -47,7 +47,7 @@ function App() {
 				<Route element={<AppLayout />}>
 					<Route path='/' element={<Home />} />
 					<Route path={ROUTES.TRANG_CHU.href} element={<Home />} />
-					<Route path={ROUTES.GIOI_THIEU.href} element={<GioiThieu />} />
+					<Route path={ROUTES.GIOI_THIEU.href} element={<Introduce />} />
 
 					<Route path={ROUTES.PORTFOLIO.href} element={<Portfolio />} />
 					<Route element={<PortfolioNgheSi />} path={ROUTES.PORTFOLIO.NGHE_SI().href} />
