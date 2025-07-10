@@ -113,7 +113,7 @@ function MobileStep({ step, activeStep, setActiveStep }) {
 	return (
 		<div
 			className={`
-				flex items-center gap-4 p-3 rounded-xl cursor-pointer transition-all duration-300
+				flex items-center gap-2 p-1 rounded-xl cursor-pointer transition-all duration-300 w-max
 				${
 					activeStep === step.id
 						? 'bg-[var(--color-bg-tertiary)] border-2 border-[var(--color-primary)]'
@@ -134,24 +134,21 @@ function MobileStep({ step, activeStep, setActiveStep }) {
 			>
 				{step.number}
 			</div>
-			<p
+			{/* <p
 				className={`
 				text-sm font-medium transition-colors duration-300 flex-1
 				${activeStep === step.id ? 'text-[var(--color-text-header)]' : 'text-[var(--color-text-secondary)]'}
 			`}
 			>
 				{step.title}
-			</p>
-			{activeStep === step.id && (
-				<FontAwesomeIcon icon={faChevronRight} className='text-[var(--color-primary)] text-sm' />
-			)}
+			</p> */}
 		</div>
 	);
 }
 
 function MobileNavigation({ steps, activeStep, setActiveStep }) {
 	return (
-		<div className='flex sm:hidden flex-col gap-4 w-full max-w-sm'>
+		<div className='flex sm:hidden flex-row justify-center gap-4 w-full max-w-sm'>
 			{steps.map((step) => (
 				<MobileStep key={step.id} step={step} activeStep={activeStep} setActiveStep={setActiveStep} />
 			))}

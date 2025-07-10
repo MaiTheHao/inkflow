@@ -77,12 +77,11 @@ function WorkProcess() {
 			description='Quy trình chuyên nghiệp, hiệu quả cho trải nghiệm tốt nhất.'
 			className='bg-[var(--color-bg-secondary)]'
 		>
-			<div className='w-full max-w-[1200px] flex flex-col gap-12'>
+			<div className='w-full max-w-[1200px] flex flex-col-reverse md:flex-col md:gap-12'>
 				<StepNavigation steps={steps} activeStep={activeStep} setActiveStep={setActiveStep} />
-
 				<StepContent currentStep={currentStep} />
 			</div>
-			<div>
+			<div className='flex justify-center'>
 				<CTABtn to='/lien-he' title='Liên hệ với chúng tôi'>
 					Đặt lịch ngay &rarr;
 				</CTABtn>
